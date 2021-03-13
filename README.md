@@ -2,6 +2,7 @@
 df
 ## requires
 [pyregion](https://pypi.org/project/pyregion/)
+[numpy](https://numpy.org/)
 ## Usage
 * Untar *MST.tar.gz* and enter the folder *MST*.
 * Run *MST.py* to get velocity coherent manimum spanning trees. A demo figure that shows the MSTs is generated in the folder *fig*.
