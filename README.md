@@ -11,7 +11,7 @@ df
 * Untar *MST.tar.gz* and enter the folder *MST*.
 * Run *MST.ipypy* to get velocity coherent manimum spanning trees. Before running, several parameters should be set:
 
- (1)'my_dL', the maximum distance between two nodes to be connected;
+ ####(1)'my_dL', the maximum distance between two nodes to be connected;
 
  (2)'my_dV', the maximum velocity difference between two nodes to be connected. If you have no velocity information, please set 'my_dV' to -1;
 
