@@ -1,5 +1,4 @@
-# asd
-df
+# MST: Adopted Minimum Spanning Tree algorithm for identifying filaments
 ## requires
 [numpy](https://numpy.org/)
 
