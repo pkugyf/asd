@@ -19,5 +19,5 @@ Automatically identificantion of filamentary clouds has long been a difficulty. 
  
    (4)'l1,l2', x range to identify filaments. For instance, if your data have Galactic longitude range from 0 to 60 deg. But you only want to inspect filaments from 10 to 15 deg, you can set 'l1,l2' to 10, 15.
 * The output of the code are lists that consist of connectivity of nodes in each filament and a figure showing that. In *branch_list.dat*, each list represents a filament and integers are ids for nodes (if you give 100 nodes, the ids for them will be from 0 to 99 in order). The inner lists with two ids mean that these two nodes are connected.
-* Two demo figures that show the MSTs are generated in the folder *fig*. *demo_lbv.png* is the output of the code with current parameters. *demo_lb.png* is the output when changing 'my_dV' to -1 and filename to 'lb.dat'.
+* Two demo figures that show the MSTs are generated in the folder *fig*. The image *demo_lbv.png* is the output of the code with current parameters. *demo_lb.png* is the output when changing 'my_dV' to -1 and filename to 'lb.dat'.
 
