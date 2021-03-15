@@ -1,4 +1,5 @@
 # MST: Adopted Minimum Spanning Tree algorithm for identifying filaments
+Automatically identificantion of filamentary clouds has long been a difficulty. This code is adopted from minimum spanning tree (MST) algorithm to settle this problem. It isolates coherent filaments through position-position-velocity (PPV) catalogue. An MST connects all the nodes (sources from PPV catalogue) in a graph with the cost of a minimum sum of edges (separations of each two sources) and the accepted MST should satisfy: (1) Contain at least a certain number of  sources; (2)  Only edges shorter than a maximum length can be connected; (3) For any two sources to be connected, the difference in line-of-sight velocity (∆v) must be less than  a cretain value. If no velocity information is given, the code will identify filaments in position-position (PP) space.
 ## requires
 [numpy](https://numpy.org/)
 
